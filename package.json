@@ -1,0 +1,32 @@
+{
+  "name": "@cow-sunday/matchmaker-ts",
+  "version": "1.0.0",
+  "description": "Game matchmaking in TypeScript",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "dist": "tsc",
+    "test": "ts-node ./src/test_index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shadowCow/matchmaker-ts.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "shadowCow",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shadowCow/matchmaker-ts/issues"
+  },
+  "homepage": "https://github.com/shadowCow/matchmaker-ts#readme",
+  "dependencies": {
+    "@cow-sunday/fp-ts": "^1.2.0"
+  },
+  "devDependencies": {
+    "@cow-sunday/cowtest": "^1.1.0",
+    "@types/node": "^20.5.9",
+    "ts-node": "^10.9.1"
+  }
+}
